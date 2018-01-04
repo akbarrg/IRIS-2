@@ -19,35 +19,28 @@
     <div class="container">
       <div class="box">
         <a href="/gallery/prewedding">
-          <img src="/img/img1.jpg">
           <h3>Prewedding</h3>
-          <p>Example prewedding photo</p>
+          <img src="/img/img1.jpg">
         </a>
       </div>
       <div class="box">
         <a href="/gallery/engagement">
-          <img src="/img/img1.jpg">
           <h3>Engagement</h3>
-          <p>Example engagement photo</p>
+          <img src="/img/img1.jpg">
         </a>
       </div>
       <div class="box">
         <a href="/gallery/wedding">
-          <img src="/img/img1.jpg">
           <h3>Wedding</h3>
-          <p>Example wedding photo</p>
+          <img src="/img/img1.jpg">
         </a>
       </div>
       <div class="box">
         <a href="/gallery/honeymoon">
-          <img src="/img/img1.jpg">
           <h3>Honeymoon</h3>
-          <p>Example honeymoon photo</p>
+          <img src="/img/img1.jpg">
         </a>
       </div>
     </div>
   </section>
-  <footer>
-    IRIS Photograph 2018, Copyright &copy;
-  </footer>
 @endsection

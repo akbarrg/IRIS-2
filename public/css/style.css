@@ -39,6 +39,13 @@ header a{
   font-size: 16px;
 }
 
+header #logo a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: inherit;
+  font-size: 16px;
+}
+
 header li{
   float: left;
   display: inline;
@@ -118,7 +125,7 @@ header a:hover {
 }
 
 #boxes .box img{
-  width: 300px;
+  width: 320px;
 }
 
 #gallery{
@@ -130,10 +137,47 @@ header a:hover {
   flex-direction: row;
   justify-content: center;
   padding: 10px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
+#gallery .box p{
+  color: #000000;
+}
+
+#gallery .box a{
+  color: #42A5F5;
+  text-decoration: none;
+}
+
 #gallery .box img{
+  width: 500px;
+}
+
+#subgallery{
+  margin-top: 20px;
+}
+
+#subshowcase{
+  min-height: 100px;
+  background: url('../img/subshowcase.jpg') no-repeat;
+  background-size: 100%;
+}
+
+#subshowcase h1{
+  text-align: center;
+  font-size: 55px;
+}
+
+#subgallery .box{
+  float: left;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+}
+
+#subgallery .box img{
   width: 500px;
 }
 
@@ -141,6 +185,7 @@ footer{
   padding: 20px;
   margin-top: 20px;
   color: #ffffff;
+  flex-direction: column;
   background-color: #e8491d;
   text-align: center;
 }

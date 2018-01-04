@@ -7,17 +7,19 @@
     <meta name="keywords" content="wedding, wedding photograph">
     <meta name="owner" content="Surya Prabawa">
     <title>IRIS Photograph</title>
+    <link rel="shortcut icon" href="https://cdn2.iconfinder.com/data/icons/life-moments/557/engagement_rings-512.png" />
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <header>
       <div class="container">
         <div id="logo">
-          <h1><span class="highlight">IRIS</span> Photograph</h1>
+          <a href="/"><h1><span class="highlight">IRIS</span> Photograph</h1></a>
         </div>
         <nav>
           <ul>
-            <li class="current"><a href="/">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="/gallery">Gallery</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/contact">Contact</a></li>
@@ -27,4 +29,10 @@
     </header>
     @yield('content')
   </body>
+  <footer class="footer">
+    <div>
+      <a href="https://www.instagram.com/iris.moment" class="fa fa-instagram" style="color: #ffffff; text-decoration: none; margin: 10px; font-size: 25px"></a>
+    </div>
+    IRIS Photograph 2018, Copyright &copy;
+  </footer>
 </html>

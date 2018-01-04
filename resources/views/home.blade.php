@@ -67,7 +67,4 @@
       </div>
     </div>
   </section>
-  <footer>
-    IRIS Photograph 2018, Copyright &copy;
-  </footer>
 @endsection

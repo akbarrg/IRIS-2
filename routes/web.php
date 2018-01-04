@@ -26,3 +26,19 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/gallery/prewedding', function () {
+    return view('prewedding');
+});
+
+Route::get('/gallery/engagement', function () {
+    return view('engagement');
+});
+
+Route::get('/gallery/wedding', function () {
+    return view('wedding');
+});
+
+Route::get('/gallery/honeymoon', function () {
+    return view('wedding');
+});
