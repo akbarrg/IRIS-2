@@ -18,52 +18,54 @@
   </section>
   <section id="boxes">
     <div class="container">
-      <div class="box">
-        <img src="/img/img1.jpg">
-        <div>
+      <div class="row">
+        <div class="box">
+          <img src="/img/img1.jpg">
+          <div>
+            <h3>Wedding</h3>
+            <p>Example wedding photo</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="/img/img1.jpg">
           <h3>Wedding</h3>
           <p>Example wedding photo</p>
         </div>
-      </div>
-      <div class="box">
-        <img src="/img/img1.jpg">
-        <h3>Wedding</h3>
-        <p>Example wedding photo</p>
-      </div>
-      <div class="box">
-        <img src="/img/img1.jpg">
-        <h3>Wedding</h3>
-        <p>Example wedding photo</p>
-      </div>
-      <div class="box">
-        <img src="/img/img1.jpg">
-        <h3>Wedding</h3>
-        <p>Example wedding photo</p>
-      </div>
-      <div class="box">
-        <img src="/img/img1.jpg">
-        <h3>Wedding</h3>
-        <p>Example wedding photo</p>
-      </div>
-      <div class="box">
-        <img src="/img/img1.jpg">
-        <h3>Wedding</h3>
-        <p>Example wedding photo</p>
-      </div>
-      <div class="box">
-        <img src="/img/img1.jpg">
-        <h3>Wedding</h3>
-        <p>Example wedding photo</p>
-      </div>
-      <div class="box">
-        <img src="/img/img1.jpg">
-        <h3>Wedding</h3>
-        <p>Example wedding photo</p>
-      </div>
-      <div class="box">
-        <img src="/img/img1.jpg">
-        <h3>Wedding</h3>
-        <p>Example wedding photo</p>
+        <div class="box">
+          <img src="/img/img1.jpg">
+          <h3>Wedding</h3>
+          <p>Example wedding photo</p>
+        </div>
+        <div class="box">
+          <img src="/img/img1.jpg">
+          <h3>Wedding</h3>
+          <p>Example wedding photo</p>
+        </div>
+        <div class="box">
+          <img src="/img/img1.jpg">
+          <h3>Wedding</h3>
+          <p>Example wedding photo</p>
+        </div>
+        <div class="box">
+          <img src="/img/img1.jpg">
+          <h3>Wedding</h3>
+          <p>Example wedding photo</p>
+        </div>
+        <div class="box">
+          <img src="/img/img1.jpg">
+          <h3>Wedding</h3>
+          <p>Example wedding photo</p>
+        </div>
+        <div class="box">
+          <img src="/img/img1.jpg">
+          <h3>Wedding</h3>
+          <p>Example wedding photo</p>
+        </div>
+        <div class="box">
+          <img src="/img/img1.jpg">
+          <h3>Wedding</h3>
+          <p>Example wedding photo</p>
+        </div>
       </div>
     </div>
   </section>

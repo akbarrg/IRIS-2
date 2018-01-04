@@ -19,25 +19,25 @@
     <div class="container">
       <div class="box">
         <a href="/gallery/prewedding">
-          <h3>Prewedding</h3>
+          <h2>Prewedding</h2>
           <img src="/img/img1.jpg">
         </a>
       </div>
       <div class="box">
         <a href="/gallery/engagement">
-          <h3>Engagement</h3>
+          <h2>Engagement</h2>
           <img src="/img/img1.jpg">
         </a>
       </div>
       <div class="box">
         <a href="/gallery/wedding">
-          <h3>Wedding</h3>
+          <h2>Wedding</h2>
           <img src="/img/img1.jpg">
         </a>
       </div>
       <div class="box">
         <a href="/gallery/honeymoon">
-          <h3>Honeymoon</h3>
+          <h2>Honeymoon</h2>
           <img src="/img/img1.jpg">
         </a>
       </div>

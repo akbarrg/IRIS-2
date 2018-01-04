@@ -33,6 +33,6 @@
     <div>
       <a href="https://www.instagram.com/iris.moment" class="fa fa-instagram" style="color: #ffffff; text-decoration: none; margin: 10px; font-size: 25px"></a>
     </div>
-    IRIS Photograph 2018, Copyright &copy;
+    <b>IRIS</b> Photograph Copyright &copy; 2018
   </footer>
 </html>
