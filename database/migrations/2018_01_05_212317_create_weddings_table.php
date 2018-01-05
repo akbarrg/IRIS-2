@@ -15,6 +15,8 @@ class CreateWeddingsTable extends Migration
     {
         Schema::create('weddings', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('title');
+            $table->string('uri');
             $table->timestamps();
         });
     }

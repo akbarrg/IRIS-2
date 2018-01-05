@@ -29,9 +29,7 @@ Route::get('/gallery/prewedding', 'PreweddingController@index');
 
 Route::get('/gallery/engagement', 'EngagementController@index');
 
-Route::get('/gallery/wedding', function () {
-    return view('wedding');
-});
+Route::get('/gallery/wedding', 'WeddingController@index');
 
 Route::get('/gallery/honeymoon', function () {
     return view('honeymoon');
