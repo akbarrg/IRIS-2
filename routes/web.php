@@ -15,9 +15,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/gallery', function () {
-    return view('gallery');
-});
+Route::get('/gallery', 'GalleryController@index');
 
 Route::get('/about', function () {
     return view('about');
@@ -40,5 +38,5 @@ Route::get('/gallery/wedding', function () {
 });
 
 Route::get('/gallery/honeymoon', function () {
-    return view('wedding');
+    return view('honeymoon');
 });
