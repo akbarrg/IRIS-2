@@ -8,22 +8,13 @@
   </section>
   <section id="subgallery">
     <div class="container">
-      <div class="box">
-        <a href="/img/img1.jpg">
-        <img src="/img/img1.jpg">
-        <img src="/img/img1.jpg">
-        <img src="/img/img1.jpg">
-        <img src="/img/img1.jpg">
-        <img src="/img/img1.jpg">
-        <img src="/img/img1.jpg">
-        <img src="/img/img1.jpg">
-        <img src="/img/img1.jpg">
-        <img src="/img/img1.jpg">
-        <img src="/img/img1.jpg">
-        <img src="/img/img1.jpg">
-        <img src="/img/img1.jpg">
-        </a>
-      </div>
+      @foreach ($honeymoons as $honeymoon)
+        <div class="box">
+          <a href={{ $honeymoon->uri }}>
+            <img src={{ $honeymoon->uri }}>
+          </a>
+        </div>
+      @endforeach
     </div>
   </section>
 @endsection
