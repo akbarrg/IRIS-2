@@ -31,6 +31,4 @@ Route::get('/gallery/engagement', 'EngagementController@index');
 
 Route::get('/gallery/wedding', 'WeddingController@index');
 
-Route::get('/gallery/honeymoon', function () {
-    return view('honeymoon');
-});
+Route::get('/gallery/honeymoon', 'HoneymoonController@index');
