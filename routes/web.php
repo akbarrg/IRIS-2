@@ -25,9 +25,7 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/gallery/prewedding', function () {
-    return view('prewedding');
-});
+Route::get('/gallery/prewedding', 'PreweddingController@index');
 
 Route::get('/gallery/engagement', function () {
     return view('engagement');

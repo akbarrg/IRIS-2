@@ -17,30 +17,14 @@
   </section>
   <section id="gallery">
     <div class="container">
-      <div class="box">
-        <a href="/gallery/prewedding">
-          <h2>Prewedding</h2>
-          <img src="/img/img1.jpg">
-        </a>
-      </div>
-      <div class="box">
-        <a href="/gallery/engagement">
-          <h2>Engagement</h2>
-          <img src="/img/img1.jpg">
-        </a>
-      </div>
-      <div class="box">
-        <a href="/gallery/wedding">
-          <h2>Wedding</h2>
-          <img src="/img/img1.jpg">
-        </a>
-      </div>
-      <div class="box">
-        <a href="/gallery/honeymoon">
-          <h2>Honeymoon</h2>
-          <img src="/img/img1.jpg">
-        </a>
-      </div>
+      @foreach ($galleries as $gallery)
+        <div class="box">
+          <a href='gallery/{{ $gallery->title }}'>
+            <h2>{{ $gallery->title }}</h2>
+            <img src={{ $gallery->uri }}>
+          </a>
+        </div>
+      @endforeach
     </div>
   </section>
 @endsection
